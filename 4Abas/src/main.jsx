@@ -1,33 +1,40 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import HOME from './Home.jsx'
-import { CALCULADORA } from './Calculadora.jsx';
-import { MAPAS } from './Mapas.jsx'
-import { API } from './Api.jsx'
+import Menu from './components/Menu.jsx'; // Importe o componente Menu
+import Home from './Home.jsx';
+import { Calculadora } from  './Calculadora.jsx';
+import { Mapa } from './Mapa.jsx';
+import { MarvelAPI } from './MarvelAPI.jsx'
+
+import './index.css'
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element:  <HOME />,
+    element:  <Menu />,
   },
   {
-    path: "/Calculadora",
-    element:  <CALCULADORA />,
+    path: "/home",
+    element:  <Home />,
   },
   {
-    path: "/Mapas",
-    element:  <MAPAS />,
+    path: "/calculadora",
+    element:  <Calculadora />,
   },
   {
-    path: "/Api",
-    element:  <API />,
+    path: "/mapa",
+    element:  <Mapa />,
   },
+  {
+    path: "/marvelAPI",
+    element:  <MarvelAPI />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>,
-)
+  </React.StrictMode>
+);

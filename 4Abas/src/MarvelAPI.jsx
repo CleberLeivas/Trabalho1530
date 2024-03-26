@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Calculadora() {
+export function MarvelAPI() {
   return (
     <div>
-      <h1>Calculadora</h1>
+      <h1>Marvel API</h1>
     </div>
   );
 }

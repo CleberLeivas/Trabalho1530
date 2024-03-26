@@ -1,9 +1,9 @@
 import React from 'react';
 
-export function Calculadora() {
+export function Mapa() {
   return (
     <div>
-      <h1>Calculadora</h1>
+      <h1>Mapa</h1>
     </div>
   );
 }

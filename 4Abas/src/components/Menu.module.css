@@ -1,3 +1,41 @@
-.primeiraDiv{
-    color: black;
+.wrapMenu{
+    background-color: black;
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    top: 0;
+}
+
+.navLinks{
+    margin-top: 2vh;
+    display: flex;
+}
+
+.navLinks ul {
+    list-style: none;
+    display: flex;
+    text-transform: uppercase;
+    gap: 2vh;
+    flex-direction: column;
+}
+
+.navLinks ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navLinks ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+
+.navLinks ul li:hover::after {
+    width: 100%;
 }

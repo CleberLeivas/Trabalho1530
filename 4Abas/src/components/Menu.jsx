@@ -1,20 +1,17 @@
 import style from './Menu.module.css'
 
-export default function Menu() {
-    return(
-        <div className="primeiraDiv">
-            <p>
-                <a href={'/'}>Home</a>
-            </p>
-            <p>
-                <a href={'/Calculadora'}>Calculadora</a>
-            </p>
-            <p>
-                <a href={'/Mapas'}>Mapas</a>
-            </p>
-            <p>
-                <a href={'/Api'}>Api</a>
-            </p>
+export default function Menu(){
+    
+    return( 
+        <div className={style.wrapMenu}>
+            <div className={style.navLinks}>
+                <ul>
+                    <li><a href="/">Menu</a></li>
+                    <li><a href="/calculadora">Calculadora</a></li>
+                    <li><a href="/mapa">Mapa</a></li>
+                    <li><a href="/marvel API">Marvel API</a></li>
+                </ul>   
+            </div>
         </div>
     )
 }
