@@ -4,6 +4,10 @@
     background-color: aquamarine;
 }
 
+.secondDiv{
+    margin-left: 20vw;
+}
+
 .principal{
     display: flex;
     flex-direction: column;
