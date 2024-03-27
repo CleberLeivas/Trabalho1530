@@ -1,7 +1,7 @@
 .wrapMenu{
-    background-color: black;
+    background-color: rgb(207, 76, 76);
     height: 100vh;
-    width: 20vw;
+    width: 210px;
     display: flex;
     top: 0;
 }
@@ -21,21 +21,10 @@
 
 .navLinks ul li a {
     color: white;
-    font-weight: bold;
     text-decoration: none;
 }
 
-.navLinks ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-
-}
-
-.navLinks ul li:hover::after {
-    width: 100%;
+.navLinks ul li a:hover {
+    color: rgb(233, 236, 14);
+    transition: font-size 300ms; /* Transição de 300 milissegundos */
 }
