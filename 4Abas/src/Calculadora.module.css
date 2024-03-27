@@ -1,3 +1,14 @@
 .firstDiv{
     display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    display: flex;
 }
