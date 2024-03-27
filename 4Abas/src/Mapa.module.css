@@ -1,5 +1,6 @@
 .firstDiv{
     display: flex;
+    flex-direction: row;
 }
 
 .wrapMap{
