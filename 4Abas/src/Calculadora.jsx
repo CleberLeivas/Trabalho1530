@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './Calculadora.module.css'
 
-export function Calculadora() {
+export default function Calculadora() {
   return (
-    <div>
+    <div className={style.firstDiv}>
       <h1>Calculadora</h1>
     </div>
   );

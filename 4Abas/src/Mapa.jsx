@@ -1,8 +1,9 @@
 import React from 'react';
+import style from './Mapa.module.css'
 
-export function Mapa() {
+export default function Mapa() {
   return (
-    <div>
+    <div className={style.firstDiv}>
       <h1>Mapa</h1>
     </div>
   );

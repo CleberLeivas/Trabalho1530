@@ -1,9 +1,10 @@
 import React from 'react';
+import style from './MarvelAPI.module.css'
 
-export function MarvelAPI() {
+export default function MarvelAPI() {
   return (
-    <div>
-      <h1>Marvel API</h1>
+    <div className={style.firstDiv}>
+      <h1>API</h1>
     </div>
   );
 }

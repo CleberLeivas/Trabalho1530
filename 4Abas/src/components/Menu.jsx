@@ -9,7 +9,7 @@ export default function Menu(){
                     <li><a href="/">Menu</a></li>
                     <li><a href="/calculadora">Calculadora</a></li>
                     <li><a href="/mapa">Mapa</a></li>
-                    <li><a href="/marvel API">Marvel API</a></li>
+                    <li><a href="/marvelAPI">Marvel API</a></li>
                 </ul>   
             </div>
         </div>
