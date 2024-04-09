@@ -1,0 +1,60 @@
+.wrapTec{
+    width: 100vw;
+    background-color: var(--bg-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    z-index: -1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 10vh;
+}
+
+.wrapCardsTec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+    padding-top: 2vh;
+    margin-left: 10vw;
+
+}
+
+.wrapButtons{
+    display: flex;
+    gap: 1vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+}
+
+.buttonsTec{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px !important;
+    transition: ease-in-out 0.3s;
+}
+
+.buttonsTec:hover{
+    background-color: black;
+    transform: scale(1.1);
+    color: white;
+}
+
+.wraph1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10vw;
+}
