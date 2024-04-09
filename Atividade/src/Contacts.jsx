@@ -1,6 +1,9 @@
 import 'leaflet/dist/leaflet.css';
 import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import "leaflet-defaulticon-compatibility";
+import Menu from "./components/Menu"
+import { useState } from 'react';
+import style from './Contacts.module.css'
 
 import {
     MapContainer,
@@ -9,15 +12,9 @@ import {
     Popup
   } from 'react-leaflet'
 
-import Menu from "./components/Menu"
-
-import { useState } from 'react';
-
-import style from './Contacts.module.css'
-
 export const Contacts = () => {
-    const geoData = ({lat: 27.988262, long: 86.924994})
-    const defaultPhoneNumber = '5541995340694';
+    const geoData = ({lat: -25.3357552, long: -49.3177718})
+    const defaultPhoneNumber = '5541987633223';
     const [formData, setFormData] = useState({
         name: '',
         email: '',

@@ -1,6 +1,6 @@
 :root {
-  --bg-primary: pink;
-  --bg-secondary: black;
+  --bg-primary: rgb(57, 107, 110);
+  --bg-secondary: rgb(6, 59, 57);
 }
 
 *{

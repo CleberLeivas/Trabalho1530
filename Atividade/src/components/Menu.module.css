@@ -29,17 +29,6 @@
     text-decoration: none;
 }
 
-.navLinks ul li::after {
-    content: '';
-    width: 0%;
-    height: 2px;
-    background-color: #f44336;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-
-}
-
 .navLinks ul li:hover::after {
     width: 100%;
 }
